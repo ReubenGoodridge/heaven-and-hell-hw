@@ -1,39 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 100px;
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  position: relative;
-  top: 150px;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  background: #403F4C;
 }
 
-img {
-  image-rendering: smooth;
-  height: 800px;
-  width: 800px;
-  position: relative;
+h1 {
+  position: absolute;
+  width: 841px;
+  height: 239px;
+  left: 43px;
+  top: 390px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 61px;
+  color: #FFE2D1;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  padding-top: 0px;
-  position: relative;
-  top: -20px;
+  position: absolute;
+  width: 39px;
+  height: 556px;
+  left: 1850px;;
+  top: 145px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 61px;
+
+  text-align: center;
+
+  color: #FFE2D1;
 }
 
-.flipH {
-  font-size: 500px;
-  transform: scale(-1, 1);
-  color: #000;
-  -moz-transform: scale(-1, 1);
-  -webkit-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-  position: relative;
-  left: 450px;
-  top: -780px;
+h3 {
+  position: absolute;
+  width: 55px;
+  height: 18px;
+  left: 540px;
+  top: 530px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 10px;
+
+  letter-spacing: 0.3em;
+
+  color: #6B6B6B;
+}
+
+/*.arrow {
+  position: absolute;
+  width: 15.62px;
+  height: 0px;
+  left: 540px;
+  top: 530px;
+
+  border: 1px solid #6B6B6B;
+  box-sizing: border-box;
+  transform: rotate(-129.81deg);
+}
+*/
+.circle1 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: -185px;
+  top: 170px;
+  border: 5px solid #FFE2D1;
+  box-sizing: border-box;
+  border-radius: 500px;
+}
+
+.circle2 {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  left: 494px;
+  top: 500px;
+  cursor: pointer;
+
+  background: #FFE2D1;
+  border-radius: 500px;
+  border: none;
+}
+
+.line {
+  position: absolute;
+  width: 1416px;
+  height: 0px;
+  left: 500px;
+  top: 516px;
+
+  border: 2px solid #FFE2D1;
 }
