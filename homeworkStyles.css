@@ -1,0 +1,6 @@
+html {
+  /* Firefox Fix */
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
